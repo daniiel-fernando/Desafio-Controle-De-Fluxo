@@ -1,18 +1,41 @@
-## Getting Started
+# Desafio Controle de Fluxo - Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto implementa um sistema simples de contagem de números inteiros com base em dois parâmetros fornecidos pelo usuário. O programa recebe dois números inteiros e imprime, na tela, a contagem de números que estão entre esses dois valores, desde que o segundo valor seja maior que o primeiro. Caso contrário, uma exceção personalizada será lançada.
 
-## Folder Structure
+## Funcionalidade
 
-The workspace contains two folders by default, where:
+- O sistema recebe dois parâmetros (números inteiros) via terminal.
+- Se o primeiro número for maior que o segundo, uma exceção personalizada chamada `ParametrosInvalidosException` é lançada.
+- O sistema então imprime no console os números de 1 até a diferença entre o segundo e o primeiro número (inclusive).
+  
+### Exemplo
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. Entrada:
+   - Primeiro parâmetro: `12`
+   - Segundo parâmetro: `30`
+   
+   Saída:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. Entrada:
+- Primeiro parâmetro: `25`
+- Segundo parâmetro: `20`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Saída:
 
-## Dependency Management
+## Estrutura do Projeto
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O projeto contém duas classes principais:
+
+- **Contador.java**: Classe responsável pela lógica de contagem e interação com o usuário.
+- **ParametrosInvalidosException.java**: Exceção personalizada que é lançada quando o primeiro parâmetro é maior que o segundo.
+
+## Como Rodar o Projeto
+
+1. Clone este repositório para sua máquina.
+2. Abra o terminal ou prompt de comando na pasta do projeto.
+3. Compile o código utilizando o comando:
+```bash
+javac src/Contador.java src/ParametrosInvalidosException.java
+
+java src.Contador
+
