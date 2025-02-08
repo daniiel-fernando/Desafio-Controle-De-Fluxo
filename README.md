@@ -14,13 +14,30 @@ Este projeto implementa um sistema simples de contagem de números inteiros com 
    - Primeiro parâmetro: `12`
    - Segundo parâmetro: `30`
    
-   Saída:
+   Saída: Imprimindo número: 1
+          Imprimindo número: 2
+          Imprimindo número: 3
+          Imprimindo número: 4
+          Imprimindo número: 5
+          Imprimindo número: 6
+          Imprimindo número: 7
+          Imprimindo número: 8
+          Imprimindo número: 9
+          Imprimindo número: 10
+          Imprimindo número: 11
+          Imprimindo número: 12
+          Imprimindo número: 13
+          Imprimindo número: 14
+          Imprimindo número: 15
+          Imprimindo número: 16
+          Imprimindo número: 17
+          Imprimindo número: 18
 
 2. Entrada:
 - Primeiro parâmetro: `25`
 - Segundo parâmetro: `20`
 
-Saída:
+Saída: O segundo parâmetro deve ser maior que o primeiro
 
 ## Estrutura do Projeto
 
